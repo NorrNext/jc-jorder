@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" version="2.5" method="upgrade">
+        <name>RND Jorder Template</name>
+        <author>Roundtheme</author>
+        <creationDate>11 02 2014</creationDate>
+        <copyright>(C) 2014 Roundtheme</copyright>
+        <license>GPLv3</license>
+        <authorEmail>support@norrnext.com</authorEmail>
+        <authorUrl>https://www.norrnext.com</authorUrl>
+        <version>1.1.0</version>
+	<description>Jorder template for JComments</description>
+        <fileset>
+			<files folder="rnd_jorder_tmpl" target="components/com_jcomments/tpl">
+				<folder>rnd_jorder</folder>
+			</files>
+        </fileset>
+</extension>
